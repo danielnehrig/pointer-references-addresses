@@ -1,3 +1,7 @@
+// Pass by reference tutorial
+// Using pointers in functions
+// and dereference pointers to assign new value
+
 #include <iostream>
 
 using namespace std;
@@ -7,15 +11,19 @@ struct Object {
   int value;
 };
 
+// mutate function
 void mutateVar(int *value) {
+  // dereference var to assign new value
   *value = 10;
 }
 
 void mutateObj(struct Object *obj) {
+  // dereference var to assign new value
   obj->value = 20;
 }
 
 int main(int argc, char* argv[]) {
+  // init and declare vars
   int value = 5;
   struct Object obj = {
     value = 10
