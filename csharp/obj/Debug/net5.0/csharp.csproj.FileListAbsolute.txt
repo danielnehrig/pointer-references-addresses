@@ -1,0 +1,5 @@
+/Users/dNehrig/code/work/memory/csharp/obj/Debug/net5.0/csharp.csprojAssemblyReference.cache
+/Users/dNehrig/code/work/memory/csharp/obj/Debug/net5.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dNehrig/code/work/memory/csharp/obj/Debug/net5.0/csharp.AssemblyInfoInputs.cache
+/Users/dNehrig/code/work/memory/csharp/obj/Debug/net5.0/csharp.AssemblyInfo.cs
+/Users/dNehrig/code/work/memory/csharp/obj/Debug/net5.0/csharp.csproj.CoreCompileInputs.cache
