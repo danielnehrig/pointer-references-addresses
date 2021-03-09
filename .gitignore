@@ -1,0 +1,7 @@
+node_modules
+./**/node_modules
+./**/Program.exe
+./**/bin
+./**/target
+./**/dist
+./**/a.out
