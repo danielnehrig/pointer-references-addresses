@@ -7,7 +7,7 @@ interface IObj {
 
 // Func to mutate var
 const mutateVar = (value: number): void => {
-  value = 8;
+  value = 10;
 };
 
 // Func to mutate obj
@@ -41,3 +41,11 @@ const main = (): number => {
 
 // Exec main
 main();
+
+// Short takeaway
+// in JS passing variables into a function are always pass by copy
+// means mutating a var in a function will not change the original var reference
+// objects are pass by reference
+// and are mutatable
+// a lot of dev that start with high level languages
+// are often suprised by this

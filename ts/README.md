@@ -2,4 +2,5 @@
 
 - in this folder run those commands
 - yarn
-- yarn run
+- yarn build
+- yarn start
