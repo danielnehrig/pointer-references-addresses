@@ -38,3 +38,37 @@ its usefull to know what happens under the hood
 it gives you a more in depth look on how memory works on the os level  
 and just shows you that a simingly missing feature is actually present  
 on high level languages but differently packaged and managed
+
+# Training
+
+## CSHARP 1
+
+- inside your main create a int value
+- also a ptr which hold the reference of the above said int value
+- Create a csharp method which takes a int double pointer as an parameter
+- use the int double pointer parameter in the method scope body and assign a new value
+- use this method in your main method and pass the ptr you created in main as a argument in the method call
+
+hint: if you need help c and c++ are similar to csharp you can take a look there
+
+### Cheatsheet
+
+```
+int value = 5;
+int *ptr;
+ptr = &value;
+
+& = reference operator
+* = pointer operator
+
+how to get the value of a pointer which holds a reference?
+thats called dereferencing and you do it like so
+*ptr // will give 5
+so for example
+int newValue = *ptr // newValue will hold the value 5
+also
+*ptr = 10 // will asign the value 10 to the value variable
+
+double pointer
+int **dPtr = &ptr
+```
